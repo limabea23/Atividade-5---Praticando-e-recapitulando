@@ -1,30 +1,73 @@
-*{
+* { 
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    color:#000000;
+    color: #000000;
 }
 
-body{
+body {
     background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
 }
 
 header,
-footer{
+footer {
     background-color: #4d6ed7;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-nav{
+nav {
     background-color: #56bac6;
+    height: 90px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-section{
+main {
+    display: flex;
+    flex: 1; 
+    width: 100%;
+    gap: 10px;
+}
+
+section {
     background-color: #f5d34e;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-article{
+article {
     background-color: #ea7e61;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-aside{
+aside {
     background-color: #ffffff;
+    width: 200px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px; 
 }
